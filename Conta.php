@@ -16,11 +16,11 @@ class Conta
             $this->saldo += $quantia;
         }
     }
-function depositar($quantia){
+    function depositar($quantia){
     $this->saldo = $quantia;
 }
 
-function obterSaldo(){
+    function obterSaldo(){
 return $this->saldo;
     }
 }
